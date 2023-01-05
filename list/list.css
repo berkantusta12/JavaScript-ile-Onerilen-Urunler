@@ -1,0 +1,48 @@
+#alan {
+    border-radius: 20px;
+    border-color: purple;
+    
+    /* background-image: linear-gradient(to left bottom, #2414db, #572ce4, #7842ed, #9358f6, #ac6eff); */
+  }
+  #deleteBtn{
+    
+    background-color: red;
+  }
+
+  #city {
+    
+    border-radius: 20px;
+    border-color: purple;
+  }
+
+  #action {
+    padding-top: 30px;
+    /* justify-content: center; */
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #05360a;
+    color: fff;
+  }
+
+  .column {
+
+    margin: 50px;
+  }
+
+  #list {
+    
+    /* list-style-type: none; */
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    font-style: italic;
+    width: 500px;
+    border-radius: 20px;
+    overflow: scroll;
+  }

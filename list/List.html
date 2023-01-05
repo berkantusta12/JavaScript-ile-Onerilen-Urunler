@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./semantic.css">
+  <link rel="stylesheet" href="./list.css">
+ 
+
+
+
+</head>
+
+<body>
+  <h1> Tercih Edilen Ürünler</h1>
+  <div class="select">
+    <div class="ui grid">
+      <div class="ui form">
+        <div class="ui grid">
+          <div class="four column centered row">
+            <div class="column">
+              <div class="field">
+                <h1 style="color: slateblue;">Ürün 1 </h1>
+                <select id="alan" onchange="getservice()">
+                  
+                  
+                </select>
+              </div>
+            </div>
+
+            <div class="column " >
+              <div class="field">
+                <h1  onclick="deleteToLists()" style="color: slateblue;">Ürün 2</h1>
+                <select class="ui dropdown" id="city" onchange="getcity()">
+                
+                </select>
+                
+                </div>
+                
+                  <!-- <div class="ui buttons">
+                    <button class="ui button">Save</button>
+                    <div class="or"></div>
+                    <button class="ui positive button">Delete</button>
+                  </div> -->
+                
+            </div>
+            <div class="column">
+             
+
+                <div id="action" class="ui buttons">
+                  <input id="saveBtn" class="ui positive button" type="submit" value="Succes" onclick="addToList()">
+                  
+                  
+                    <input class="ui negative button" id="h1" type="submit" value="Delete"  onclick="deleteToList()">
+                  
+                
+              
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    </select>
+
+  <ul id="list">
+  </ul>
+  <script src="./list.js"></script>
+</body>
+
+<style>
+  
+</style>
+
+
+
+</html>
